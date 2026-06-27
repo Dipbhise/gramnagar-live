@@ -1,0 +1,8 @@
+{
+  "name": "Gramnagar - Citizen Service Portal",
+  "description": "A comprehensive mobile-first civic engagement platform for citizens to report issues, workers to manage tasks, and admins to oversee government operations.",
+  "requestFramePermissions": [
+    "camera",
+    "geolocation"
+  ]
+}
