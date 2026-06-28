@@ -2,7 +2,7 @@ import axios from 'axios';
 import { STORAGE_KEYS } from '../constants';
 
 const api = axios.create({
-  baseURL: 'http://127.0.0.1:8000',
+  baseURL: 'https://gramnagar-live.onrender.com',
 });
 
 // Add a request interceptor to include the token in all requests
