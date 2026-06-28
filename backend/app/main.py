@@ -24,11 +24,7 @@ app = FastAPI(title="Gramnagar Live API")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:5173",     # Vite
-        "http://127.0.0.1:5173",
-        "http://localhost:3000",     # Vite (fallback)
-        "http://127.0.0.1:3000",    # Vite (fallback)
-        "https://gramnagar.vercel.app"
+        "*"
     ],
     allow_credentials=True,
     allow_methods=["*"],
