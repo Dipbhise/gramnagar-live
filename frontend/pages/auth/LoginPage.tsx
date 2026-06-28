@@ -41,7 +41,7 @@ const LoginPage: React.FC = () => {
     }
   }, [searchParams]);
 
-  const orgName = org === 'gram_panchayat' ? 'Gram Panchayat' : 'Mahanagar Palika';
+  const orgName = org === 'gram_panchayat' ? 'Gram Panchayat' : 'Nagar Palika';
   const orgColor = org === 'gram_panchayat' ? 'green' : 'blue';
 
   const getRoleInfo = () => {
